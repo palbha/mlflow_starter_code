@@ -41,3 +41,21 @@ Execute the run_experiments.py script to start the MLflow experiment
 ```bash
 python run_experiments.py 
 ```
+Once the file ran completely fine, take a look at the mlflow UI to see the results from your experiments 
+```bash
+mlflow server --host 127.0.0.1 --port 8080
+```
+
+Open your browser & go to http://127.0.0.1:8080/ & You can see th experiments
+
+![image](https://github.com/user-attachments/assets/409ad22f-bed4-4843-824a-a400ad994461)
+
+Click on any experiments & take a look at artifacts to analyse & see the output further
+
+![image](https://github.com/user-attachments/assets/4ca6fa09-09c9-4072-a5b1-eee5313698d2)
+
+One can also download the details of each run to create their own custom graphs & share results with stakeholders 
+
+![image](https://github.com/user-attachments/assets/1ddab6bb-7d5f-42a2-8220-f1b58484f679)
+
+
